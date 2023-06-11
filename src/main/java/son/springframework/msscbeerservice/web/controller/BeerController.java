@@ -7,7 +7,7 @@ import son.springframework.msscbeerservice.web.model.BeerDto;
 
 import java.util.UUID;
 
-@RequestMapping("/ap1/v1/beer/")
+@RequestMapping("/ap1/v1/beer")
 @RestController
 public class BeerController {
     @GetMapping("/{beerId}")
